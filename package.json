@@ -1,0 +1,14 @@
+{
+  "name": "practice-js-testing",
+  "version": "1.0.0",
+  "description": "A few simple exercises to practice TDD with Jest in JS",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}
