@@ -28,3 +28,7 @@ test('12 / 4 = 3', () => {
 test('4 * 2 = 8', () => {
   expect(multiply(4, 2)).toBe(8);
 });
+
+test('12 * 2 = 24', () => {
+  expect(multiply(12, 2)).toBe(24);
+});

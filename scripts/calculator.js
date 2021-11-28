@@ -11,7 +11,7 @@ function divide(a, b) {
 }
 
 function multiply(a, b) {
-  return 8;
+  return a * b;
 }
 
 module.exports = { add, subtract, divide, multiply };
