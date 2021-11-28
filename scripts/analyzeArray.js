@@ -1,9 +1,9 @@
 function analyzeArray(array) {
   return {
-    average: 3,
-    min: 1,
-    max: 5,
-    length: 5,
+    average: array.reduce((sum, num) => sum + num) / array.length,
+    min: Math.min(...array),
+    max: Math.max(...array),
+    length: array.length,
   };
 }
 
