@@ -4,7 +4,8 @@
   "description": "A few simple exercises to practice TDD with Jest in JS",
   "main": "main.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "watch": "jest --watch"
   },
   "author": "",
   "license": "ISC",
