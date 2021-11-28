@@ -1,5 +1,5 @@
 const { test, expect } = require('@jest/globals');
-const { add, subtract } = require('../scripts/calculator');
+const { add, subtract, divide } = require('../scripts/calculator');
 
 test('1 + 2 = 3', () => {
   expect(add(1, 2)).toBe(3);
@@ -15,4 +15,8 @@ test('5 - 2 = 3', () => {
 
 test('25 - 7 = 18', () => {
   expect(subtract(25, 7)).toBe(18);
+});
+
+test('25 / 5 = 5', () => {
+  expect(divide(25, 5)).toBe(5);
 });
