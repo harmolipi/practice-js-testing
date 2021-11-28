@@ -17,3 +17,7 @@ test(`doesn't affect punctuation ("Hi! What's your name?")`, () => {
 test('properly wraps end of alphabet to beginning ("XYZ xyz")', () => {
   expect(caesarCipher('XYZ xyz', 2)).toBe('ZAB zab');
 });
+
+test('works with a super high shift', () => {
+  expect(caesarCipher('hello world', 100)).toBe('dahhk sknhz');
+});
