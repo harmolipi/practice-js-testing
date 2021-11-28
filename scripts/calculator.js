@@ -7,7 +7,7 @@ function subtract(a, b) {
 }
 
 function divide(a, b) {
-  return 5;
+  return a / b;
 }
 
 module.exports = { add, subtract, divide };

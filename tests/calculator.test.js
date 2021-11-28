@@ -20,3 +20,7 @@ test('25 - 7 = 18', () => {
 test('25 / 5 = 5', () => {
   expect(divide(25, 5)).toBe(5);
 });
+
+test('12 / 4 = 3', () => {
+  expect(divide(12, 4)).toBe(3);
+});
