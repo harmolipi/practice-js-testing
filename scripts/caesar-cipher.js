@@ -11,4 +11,4 @@ function caseAdjustment(char) {
   return char.charCodeAt(0) >= 97 && char.charCodeAt(0) <= 122 ? 97 : 65;
 }
 
-module.exports = caesarCipher;
+export default caesarCipher;

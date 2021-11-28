@@ -1,4 +1,4 @@
-const analyzeArray = require('../scripts/analyzeArray');
+import analyzeArray from '../scripts/analyzeArray';
 
 test('returns proper average', () => {
   expect(analyzeArray([3, 3]).average).toEqual(3);

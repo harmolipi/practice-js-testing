@@ -7,4 +7,4 @@ function analyzeArray(array) {
   };
 }
 
-module.exports = analyzeArray;
+export default analyzeArray;
