@@ -12,3 +12,7 @@ test('50 + 26 = 76', () => {
 test('5 - 2 = 3', () => {
   expect(subtract(5, 2)).toBe(3);
 });
+
+test('25 - 7 = 18', () => {
+  expect(subtract(25, 7)).toBe(18);
+});
