@@ -26,7 +26,7 @@ test('returns proper average, min, max, and length together', () => {
 });
 
 test('returns proper values for another, longer, array', () => {
-  expect(analyzeArray([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])).toEqual({
+  expect(analyzeArray([10, 2, 7, 4, 6, 5, 3, 8, 1, 9])).toEqual({
     average: 5.5,
     min: 1,
     max: 10,
