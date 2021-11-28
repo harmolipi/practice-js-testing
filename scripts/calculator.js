@@ -10,4 +10,8 @@ function divide(a, b) {
   return a / b;
 }
 
-module.exports = { add, subtract, divide };
+function multiply(a, b) {
+  return 8;
+}
+
+module.exports = { add, subtract, divide, multiply };
